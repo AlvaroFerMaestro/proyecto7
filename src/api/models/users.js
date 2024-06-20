@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema(
       enum: ["admin", "user"],
       default: "user",
     },
+    plataformas: [{ type: mongoose.Schema.Types.ObjectId, ref: "plataformas" }]
   },
   {
     timestamps: true,
