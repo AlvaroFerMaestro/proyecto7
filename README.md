@@ -108,7 +108,7 @@ Descripción: Elimina una plataforma específica usando su ID.
 Parámetros URL: id - ID de la plataforma.
 Respuesta exitosa: Código 200 y el objeto de la plataforma eliminada.
 
-
+     <--------------------->
 
 CREACION DE USUARIOS ----->   UserName, Password
 
